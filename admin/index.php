@@ -58,8 +58,10 @@ checkLogined();
             <li class="menu-list">
                <a href="##" style="cursor:pointer" class="firsta"><i  class="glyph-icon xlcd"></i>书籍管理<s class="sz"></s></a>
                <ul>
+                    <li><a href="bookInfoModify.php" target="menuFrame"><i class="glyph-icon icon-chevron-right2"></i>查询书籍</a></li>
                     <li><a href="bookInfoAdd.php" target="menuFrame"><i class="glyph-icon icon-chevron-right1"></i>添加书籍</a></li>
-                    <li><a href="bookInfoModify.php" target="menuFrame"><i class="glyph-icon icon-chevron-right2"></i>修改书籍</a></li>
+                    <li><a href="articleInfoModify.php" target="menuFrame"><i class="glyph-icon icon-chevron-right2"></i>查询文章</a></li>
+                    <li><a href="articleInfoAdd.php" target="menuFrame"><i class="glyph-icon icon-chevron-right1"></i>添加文章</a></li>
                 </ul>
             </li>
             <li class="menu-list">
@@ -90,7 +92,21 @@ checkLogined();
                      <li><a href="home.php" target="menuFrame"><i class="glyph-icon icon-chevron-right1"></i>子主题</a></li>
                 </ul>
             </li>
-           
+             <!--
+            下边是推送类
+            -->
+            <li style="text-align:center">推送类</li>
+            <li class="menu-list">
+               <a style="cursor:pointer" class="firsta"><i  class="glyph-icon xlcd"></i>消息通知<s class="sz"></s></a>
+                <ul>
+                    <li><a href="push_AllMessage.php" target="menuFrame"><i class="glyph-icon icon-chevron-right1"></i>新书直播(all)</a></li>
+                    <li><a href="push_SingleMessage.php" target="menuFrame"><i class="glyph-icon icon-chevron-right1"></i>收入奖励(single)</a></li>
+                </ul>
+                <a style="cursor:pointer" class="firsta"><i  class="glyph-icon xlcd"></i>自定义推送<s class="sz"></s></a>
+                <ul>
+                    <li><a href="pushCustom.php" target="menuFrame"><i class="glyph-icon icon-chevron-right1"></i>版本打分</a></li>
+                </ul>
+            </li>
             <!--
             下边是报表类
             -->

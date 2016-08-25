@@ -45,6 +45,7 @@ img{border:0}
 .table_con table tbody tr td input.bj_btn{border:solid 1px #0c89ff; color:#0c89ff}
 .table_con table tbody tr td input.sj_btn{border:solid 1px #0c89ff; background:#0c89ff; color:#fff}
 .table_con table tbody tr td input.del_btn{border:solid 1px #f12c0b; background:#f12c0b; color:#fff}
+.table_con table tbody tr td input.pvw_btn{border:solid 1px #f12c0b;  color:#f12c0b;}
 /*我的微网站*/
 .wz_con{width:100%; height:auto; margin:auto; position:relative; display:table}
 .wz_con>img{margin:150px auto 0 auto;width:200px; height:200px; display:block}

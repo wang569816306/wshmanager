@@ -1,0 +1,11 @@
+﻿
+极光推送
+自定义消息：
+1.versions//版本号
+2.marking//打分
+
+
+消息通知：
+1.NEW-BOOK
+2.LIVE-TIME
+3.系统奖励

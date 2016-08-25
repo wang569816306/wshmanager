@@ -32,6 +32,18 @@ function update($table,$array,$where,$id){
 	
 }
 
+function oneUpdate($table,$state,$bookId){
+	$sql="update {$table} set bookstatus = ".$state." where bookId = ".$bookId;
+	@mysql_query($sql);
+	return mysql_affected_rows();
+}
+
+function oneUpdateArticle($table,$state,$artId){
+	$sql="update {$table} set artStatus = ".$state." where artId = ".$artId;
+	@mysql_query($sql);
+	return mysql_affected_rows();
+}
+
 
 
 
@@ -80,3 +92,7 @@ function getResultNum($sql){
 	$result=@mysql_query($sql);
 	return @mysql_num_rows($result);
 }
+
+/*
+向数据库插入数据
+*/

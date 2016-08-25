@@ -14,11 +14,9 @@ $quStr=""; //拼装条件；
 //拼接sql.
 
 
-
-
 if ($fdTitle !='') {
-	$quStr = $quStr." fdTitle LIKE"."'%$fdTitle%' ";
 	$queryStr=$queryStr." fdTitle = ".$fdTitle;
+	$quStr = $quStr." fdTitle LIKE"."'%$fdTitle%' ";
 }
 
 if ($fdContent !='') {
@@ -84,7 +82,7 @@ if(!empty($fdTitle)&&!empty($fdContent)&&!empty($fbStatus)){
 	$sql=$sql." where hasRead=0";
 }*/
 $row=allFeedBack($sql);
-$rows=pageSql($row,$sql,3);
+$rows=pageSql($row,$sql,8);
 
 ?>
 <!DOCTYPE html>

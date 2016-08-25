@@ -12,7 +12,7 @@ checkLogined();
 <body>
 	<center>
 		<h3>系统信息</h3>
-		<table width="70%" border="1" cellpadding="5" cellspacing="0" bgcolor="#ccc">
+		<table width="70%" border="1" cellpadding="5" cellspacing="0" style="background:#ccc">
 			<tr>
 				<th>操作系统</th>
 				<td><?php echo PHP_OS;?></td>
@@ -31,7 +31,7 @@ checkLogined();
 			</tr>
 		</table>
 		<h3>软件信息</h3>
-		<table width="70%" border="1" cellpadding="5" cellspacing="0" bgcolor="#ccc">
+		<table width="70%" border="1" cellpadding="5" cellspacing="0" style="background:#ccc">
 			<tr>
 				<th>系统名称</th>
 				<td>维书会后台管理系统</td>
